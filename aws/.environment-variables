@@ -4,4 +4,4 @@
 export AWS_ACCESS_KEY_ID=""
 export AWS_SECRET_ACCESS_KEY=""
 export S3_BUCKET_NAME="tf-state-sandbox-nerdery"
-export TF_VAR_public_key=$(cat ../jumpbox_key.pub)
+export TF_VAR_public_key=$(cat ./jumpbox_key.pub)
